@@ -78,14 +78,14 @@ WSGI_APPLICATION = 'account.wsgi.application'
 
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': BASE_DIR / 'db.sqlite3',
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'surajraj506$test',
-        'USER' : 'surajraj506',
-        'HOST' : 'surajraj506.mysql.pythonanywhere-services.com',
-        'PASSWORD':'9211@Skrs',
-        'PORT':'5432'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3'
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'surajraj506$test',
+#         'USER' : 'surajraj506',
+#         'HOST' : 'surajraj506.mysql.pythonanywhere-services.com',
+#         'PASSWORD':'9211@Skrs',
+#         'PORT':'5432'
     }
 }
 
