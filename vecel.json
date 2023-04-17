@@ -11,8 +11,8 @@
     }],
     "routes": [
         {
-            "src": "/static/(.*)",
-            "dest": "/static/$1"
+            "src": "/customer/(.*)",
+            "dest": "/customer/views.py"
         },
         {
             "src": "/(.*)",
