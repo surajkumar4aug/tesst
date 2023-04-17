@@ -16,7 +16,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "project_name/wsgi.py"
+            "dest": "account/wsgi.py"
         }
     ]
 }
